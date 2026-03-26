@@ -1,0 +1,15 @@
+.venv/
+.vscode/
+
+__pycache__/
+*.py[cod]
+
+logs/
+models/
+
+# Keep representative GIFs if needed for the portfolio,
+# but ignore other generated video artifacts by default.
+videos/**
+!videos/
+!videos/**/
+!videos/**/*.gif
